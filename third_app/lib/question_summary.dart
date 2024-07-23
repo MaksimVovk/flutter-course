@@ -60,8 +60,8 @@ class QuestionSummary extends StatelessWidget {
                         it['user_answer'] as String,
                         style: TextStyle(
                           color: (it['is_correct'] as bool)
-                              ? Color.fromARGB(255, 0, 171, 6)
-                              : Color.fromARGB(255, 207, 14, 0),
+                              ? const Color.fromARGB(255, 0, 171, 6)
+                              : const Color.fromARGB(255, 207, 14, 0),
                           fontSize: 14,
                         ),
                       ),

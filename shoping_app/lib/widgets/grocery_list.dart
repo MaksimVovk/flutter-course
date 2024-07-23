@@ -16,6 +16,7 @@ class GroceryList extends StatefulWidget {
 class _GroceryListState extends State<GroceryList> {
   List<GroceryItem> _groceryItems = [];
   var isLoading = true;
+  // ignore: avoid_init_to_null
   String? _error = null;
 
   @override
